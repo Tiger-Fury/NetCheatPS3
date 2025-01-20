@@ -19,7 +19,7 @@ namespace NetCheatPS3
         public static Form1 Instance = null;
         public static FindReplaceManager FRManager = null;
 
-        public static string versionNum = "4.53";
+        public static string versionNum = "4.54";
         public static string apiName = "Target Manager API (420.1.14.7)";
 
         private static Types.AvailableAPI _curapi;
@@ -32,7 +32,7 @@ namespace NetCheatPS3
                 if (_curapi == null)
                 {
                     apiName = "None";
-                    Form1.Instance.Text = "NetCheat " + versionNum + " by Dnawrkshp" + ((IntPtr.Size == 8) ? " (64 Bit)" : " (32 Bit)");
+                    Form1.Instance.Text = "NetCheat " + versionNum + " by Dnawrkshp - Modified by Tiger Fury" + ((IntPtr.Size == 8) ? " (64 Bit)" : " (32 Bit)");
                     Form1.Instance.statusLabel2.Text = "API: None";
 
                     // disable parts of the ui
@@ -53,7 +53,7 @@ namespace NetCheatPS3
                 {
                     Form1.Instance.CurrentEndian = _curapi.Instance.isPlatformLittleEndian ? Endian.Little : Endian.Big;
                     apiName = _curapi.Instance.Name + " (" + _curapi.Instance.Version + ")";
-                    Form1.Instance.Text = "NetCheat " + _curapi.Instance.Platform + " " + versionNum + " by Dnawrkshp" + ((IntPtr.Size == 8) ? " (64 Bit)" : " (32 Bit)");
+                    Form1.Instance.Text = "NetCheat " + _curapi.Instance.Platform + " " + versionNum + " by Dnawrkshp - Modified by Tiger Fury" + ((IntPtr.Size == 8) ? " (64 Bit)" : " (32 Bit)");
                     Form1.Instance.statusLabel2.Text = "API: " + _curapi.Instance.Name;
                 }
             }
