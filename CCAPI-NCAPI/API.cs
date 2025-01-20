@@ -19,7 +19,7 @@ namespace CCAPI_NCAPI
         string myName = "Control Console API";
         string myDescription = "NetCheat API for the Control Console API (PS3).\n\nCEX and DEX supported!";
         string myAuthor = "Enstone and iMCSx";
-        string myVersion = "2.60";
+        string myVersion = "2.80";
         string myPlatform = "PS3";
         string myContactLink = "http://www.nextgenupdate.com/forums/ps3-cheats-customization/693857-controlconsoleapi-2-60-rev3-ccapi-4-70-a-37.html";
         System.Drawing.Image myIcon = Properties.Resources.ico;
