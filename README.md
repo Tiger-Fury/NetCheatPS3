@@ -1,9 +1,13 @@
-# NetCheat PS3 4.53
+# NetCheat PS3 4.54
 
-Written by Dnawrkshp
+Written by Dnawrkshp - Modified by Tiger Fury
 
 ## Comments
+v4.54
+This Version adds CCAPI 2.80
 
+
+v4.53
 This version differs slightly from the released version of NetCheat 4.53 in the following ways:
 
  - Removed online PS3 codelist browser
