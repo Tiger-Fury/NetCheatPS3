@@ -4,7 +4,7 @@
 //              PS3Lib v4 By FM|T iMCSx              //
 //                                                   //
 // Features v4.4 :                                   //
-// - Support CCAPI v2.6 C# by iMCSx                  //
+// - Support CCAPI v2.80 C# by iMCSx                  //
 // - Set Boot Console ID                             //
 // - Popup better form with icon                     //
 // - CCAPI Consoles List Popup French/English        //
@@ -109,7 +109,7 @@ namespace CCAPI_NCAPI
         private shutdownDelegate shutdown;
 
         private IntPtr libModule = IntPtr.Zero;
-        private readonly string CCAPIHASH = "C2FE9E1C387CF29AAC781482C28ECF86";
+        private readonly string CCAPIHASH = "44F8C8BC576CA8BA3F99EF46C2E4B9C3";
         private string programPath = "";
 
         public CCAPI()
@@ -159,12 +159,12 @@ namespace CCAPI_NCAPI
                             }
                             else
                             {
-                                MessageBox.Show("Impossible to load CCAPI.dll version 2.60.", "CCAPI.dll cannot be load", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                                MessageBox.Show("Impossible to load CCAPI.dll version 2.80.", "CCAPI.dll cannot be load", MessageBoxButtons.OK, MessageBoxIcon.Error);
                             }
                         }
                         else
                         {
-                            MessageBox.Show("You're not using the right CCAPI.dll please install the version 2.60.", "CCAPI.dll version incorrect", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                            MessageBox.Show("You're not using the right CCAPI.dll please install the version 2.80.", "CCAPI.dll version incorrect", MessageBoxButtons.OK, MessageBoxIcon.Error);
                         }
                     }
                     else
